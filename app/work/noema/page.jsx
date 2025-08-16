@@ -26,7 +26,7 @@ export default function CaseStudy() {
           <section>
             <h2 className="h2 mb-3">Approach</h2>
             <p className="text-zinc-300 leading-relaxed mb-4">
-              The solution was a custom web application built with a domain-driven philosophy, ensuring the software schema perfectly mirrored the business's real-world operations. The stack was chosen for rapid development and reliability:
+              The solution was a custom web application built with a domain-driven philosophy, ensuring the software schema perfectly mirrored the business&apos;s real-world operations. The stack was chosen for rapid development and reliability:
             </p>
             <ul className="list-disc list-inside space-y-2 text-zinc-300">
               <li><strong>Framework:</strong> Next.js (App Router) for a fast, interactive frontend and robust backend.</li>
@@ -39,7 +39,7 @@ export default function CaseStudy() {
           <section>
             <h2 className="h2 mb-3">Outcome</h2>
             <p className="text-zinc-300 leading-relaxed">
-              The system significantly reduced operational overhead and minimized errors caused by manual data entry. The tailored interface allowed staff to process orders and manage inventory much faster, providing a clear view of the business's health through the analytics dashboard.
+              The system significantly reduced operational overhead and minimized errors caused by manual data entry. The tailored interface allowed staff to process orders and manage inventory much faster, providing a clear view of the business&apos;s health through the analytics dashboard.
             </p>
           </section>
         </div>

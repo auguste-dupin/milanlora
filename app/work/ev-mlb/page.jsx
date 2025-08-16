@@ -33,14 +33,14 @@ export default function CaseStudy() {
               <li><strong>Feature Engineering:</strong> Created rolling averages, situational stats, and odds-implied metrics.</li>
               <li><strong>Labeling:</strong> Used a triple-barrier method to define outcomes (win, loss, no bet) based on whether odds were beaten, creating a more robust target than simple win/loss.</li>
               <li><strong>Modeling:</strong> Trained an XGBoost model to predict the probability of beating the closing line odds, a proxy for profitable bets.</li>
-              <li><strong>Policy:</strong> Implemented a fractional Kelly criterion policy for bankroll management to optimize bet sizing based on the model's confidence.
+              <li><strong>Policy:</strong> Implemented a fractional Kelly criterion policy for bankroll management to optimize bet sizing based on the model&apos;s confidence.
               </li>
             </ul>
           </section>
           <section>
             <h2 className="h2 mb-3">Outcome</h2>
             <p className="text-zinc-300 leading-relaxed">
-              Backtesting showed a consistent positive return on investment over several seasons. A live paper-trading phase confirmed the model's edge, matching historical performance. The synthetic chart below represents the typical profit curve from a simulated season, demonstrating steady growth.
+              Backtesting showed a consistent positive return on investment over several seasons. A live paper-trading phase confirmed the model&apos;s edge, matching historical performance. The synthetic chart below represents the typical profit curve from a simulated season, demonstrating steady growth.
             </p>
             <div className="mt-4 p-6 rounded-2xl border border-zinc-800 bg-zinc-950">
               <h3 className="text-sm font-semibold text-zinc-200 mb-2">Simulated P/L Trend</h3>

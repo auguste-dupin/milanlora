@@ -26,7 +26,7 @@ export default function CaseStudy() {
           <section>
             <h2 className="h2 mb-3">Approach</h2>
             <p className="text-zinc-300 leading-relaxed mb-4">
-              The system was designed as a thin, self-contained unit. A 2-axis CoreXY gantry with an electromagnet moves silently beneath the board's surface to position pieces. Key components included:
+              The system was designed as a thin, self-contained unit. A 2-axis CoreXY gantry with an electromagnet moves silently beneath the board&apos;s surface to position pieces. Key components included:
             </p>
             <ul className="list-disc list-inside space-y-2 text-zinc-300">
               <li><strong>Mechanics:</strong> CoreXY system with Trinamic silent stepper drivers for quiet, precise motion.</li>
