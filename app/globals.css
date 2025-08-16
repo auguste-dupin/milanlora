@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent-color: #FF9800;
+  color-scheme: dark;
+}
+
+html,
+body {
+  @apply bg-zinc-800 text-zinc-100 antialiased;
+}
+
+p {
+  @apply text-zinc-300 leading-relaxed;
+}
+
+.container {
+  @apply max-w-5xl mx-auto px-4;
+}
+
+.lede {
+  @apply text-xl md:text-2xl text-zinc-400 leading-relaxed;
+}
+
+.h1 {
+  @apply text-4xl md:text-6xl font-semibold tracking-tight;
+}
+
+.h2 {
+  @apply text-2xl md:text-3xl font-semibold;
+}
+
+.tag {
+  @apply text-xs px-2 py-1 rounded-full bg-zinc-900 border border-zinc-800;
+}
+
+.card {
+  @apply rounded-2xl border border-zinc-800 hover:border-zinc-700 transition-all bg-zinc-700;
+  box-shadow: 0 0 0 2px transparent;
+}
+
+.card:hover {
+  box-shadow: 0 0 0 2px var(--accent-color);
+}
+
+.btn {
+  @apply inline-flex items-center gap-2 rounded-2xl px-5 py-3 border border-zinc-700 transition-all;
+  box-shadow: 0 0 0 2px transparent;
+}
+
+.btn:hover {
+  box-shadow: 0 0 0 2px var(--accent-color);
+}
+
+.btn-primary {
+  @apply bg-white text-black hover:bg-zinc-300 border-white;
+}
